@@ -1,28 +1,68 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Teneo Retreat 2022</title>
-    <meta name="description" content="Flok - Happy Holidays" />
+    <title>Happy Holidays from Flok</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://flok-b32d43c.s3.us-east-1.amazonaws.com/branding/logos/icon-white_bg-rounded@.5x.png"
+      sizes="16x16"
+    />
+    <meta
+      name="description"
+      content="Flok wishes you a happy holiday season!"
+    />
     <link rel="stylesheet" href="/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://vjs.zencdn.net/7.20.3/video-js.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- SNOWFLAKES -->
+    <div class="snowflakes" aria-hidden="true">
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+      <div class="snowflake">&#10054;</div>
+    </div>
+    <!-- End SNOWFLAKES -->
+    <div id="logo"></div>
     <div class="root">
-      <div class="main">
-        <img
-          id="logo"
-          src="https://flok-b32d43c.s3.amazonaws.com/branding/logos/icon_text-empty_bg@2x.png"
-          alt="Flok Logo"
+      <video
+        id="my-video"
+        class="video-js"
+        controls
+        preload="auto"
+        width="680"
+        height="383"
+        poster="https://picsum.photos/680/383"
+        data-setup="{}"
+      >
+        <source
+          src="https://jsoncompare.org/LearningContainer/SampleFiles/Video/MP4/Sample-MP4-Video-File-for-Testing.mp4"
+          type="video/mp4"
         />
-        <div id="header">Happy holidays!</div>
-        <div id="body">
-          To all our partners and clients, we wish you a warm, happy and safe
-          holiday season.
-          <br />
-          <br />
-          Thank you!
-        </div>
-      </div>
+        <p class="vjs-no-js">
+          To view this video please enable JavaScript, and consider upgrading to
+          a web browser that
+          <a href="https://videojs.com/html5-video-support/" target="_blank"
+            >supports HTML5 video</a
+          >
+        </p>
+      </video>
     </div>
   </body>
 </html>
